@@ -1,0 +1,66 @@
+/* MEDIA QUERY*/
+
+@media (min-width:768px) {
+
+  .articulo{
+    width:40%;
+    padding:10px;
+  }
+
+  .menu-big{
+    display:none;
+  }
+
+  .titulo-desta{
+    font-size: 2rem;
+  }
+
+  .destacado{
+    width:25%;
+    width: 25%;
+    margin: 10px;
+  }
+
+  .registro2{
+    max-width: 960px;
+      width: 65%;
+      margin: 0 auto;
+      margin-bottom: 5vh;
+      margin-top: 12vh;
+      text-align: center;
+  }
+
+}
+  @media (min-width:1024px) {
+
+    .footer{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .fa-bars{
+      display:none;
+    }
+
+    .menu-big{
+      display:inline-flex;
+    }
+
+
+
+  .registro2{
+      width: 50%;
+      margin-bottom: 10vh;
+      margin-top: 20vh;
+
+  }
+
+.secciones{
+  display: inline-flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 85%;
+}
+
+
+  }

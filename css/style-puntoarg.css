@@ -1,0 +1,448 @@
+
+/*RESETEOS*/
+*{
+  box-sizing: border-box;
+}
+ul,ol{
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* MAIN*/
+body{
+
+  margin: 0 auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* NAV */
+
+.nav-bar{
+  background: #0D47A1;
+  position: fixed;
+  width: 100vw;
+  top:0;
+  text-align:center;
+  display:inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+.avatar{
+  border-radius: 90%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+
+}
+.perfil img{
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+/*MENU ICONOS Y BARRAHAMBURGUER*/
+.menu-small{
+  display: inline-flex;
+
+
+}
+.menu-small ul li{
+  display:inline-flex;
+}
+
+.menu-small i{
+  color: white;
+  padding:10px;
+  font-size: 1.5rem;
+}
+
+.error {
+  color:#ff0000;
+
+}
+.ingreso{
+  display: flex;
+  align-items: center;
+
+}
+.user{
+  color: white;
+  font-family: 'Roboto Condensed',
+}
+.menu-big{
+  display:none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.menu-big ul li{
+  display:inline-flex;
+}
+.menu-big a{
+  color: white;
+  padding:10px;
+  font-size: 1.5rem;
+}
+
+/*LOGO*/
+.puntoarg{
+  position: relative;
+}
+.big-title{
+  font-family: 'Baloo Chettan';
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  position: fixed;
+  left:50%;
+  top: 3%;
+  transform: translate(-50%, -50%);
+
+}
+/*PORTADA*/
+.portada{
+  width: 100vw;
+  margin-top: 70px;
+}
+.fotomain{
+  position: relative;
+
+}
+.titulo{
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-family: 'Oswald';
+    font-size: 1.3rem;
+  text-shadow: 2px -2px 1px rgba(0,0,0,0.5);
+}
+.hero img{
+  margin: 0auto;
+  width:100vw;
+}
+
+
+
+/*SECCION PRINCIPAL*/
+.faq{
+  margin-top: 90px;
+}
+.preguntas{
+    max-width: 50%;
+    margin: 0 auto;
+}
+.preguntas ul{
+  margin-top: 0;
+}
+.preguntas ul li{
+  font-size: 1.2rem;
+  margin: 5px;
+  padding: 15px;
+
+  background-color: #0064ff30;
+
+}
+.principales{
+  text-align:center;
+  margin-top: 0;
+  background-color: #0064ff30;
+  padding: 0;
+  width: 100vw;
+
+}
+.articulo {
+  width:100vw;
+  margin: 0 auto;
+
+   display: inline-block;
+  padding: 0;
+  background-color: white;
+}
+.articulo p{
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: justify;
+
+}
+.img-principal{
+  width:100%;
+}
+.titulo-art{
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+
+}
+.titulo-art img {
+  width: 100%;
+  object-fit: cover;
+}
+.titulo-art p{
+  margin-right: 10px;
+}
+.descripcion-art{
+  text-align: left;
+  font-size: 24px;
+  font-size: 1.4rem;
+}
+
+/*DESTACADOS*/
+
+.destacados {
+  width:100vw;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 0;
+  justify-content: center;
+  text-align:center;
+  background-color: rgba(255, 214, 51,0.5);
+  padding-bottom: 10px;
+
+}
+.destacado{
+  width: 100%;
+  margin: 0 auto;
+  display:inline-block;
+  background-color: white;
+}
+.destacado a{
+  color:white;
+}
+.descripcion h3{
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: left;
+  height: 45px;
+}
+.destacado p{
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 5px;
+}
+.destacado img{
+  width:100%;
+
+}
+.destacados ul{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0;
+}
+.destacados ul li{
+  display: inline-flex;
+
+}
+.precio-desta{
+  font-weight: bold;
+  background: blue;
+  padding: 5px;
+}
+.consulta{
+  color:white;
+  background: black;
+  padding: 5px;
+}
+.consulta-desta{
+  margin-bottom: 5px;
+}
+.titulo-desta{
+  background-color: #0D47A1;
+  padding: 10px;
+  width: 100vw;
+  display: inline-block;
+  font-family: 'Oswald';
+  margin-top: 0;
+  color: white;
+}
+
+/*---------------------*/
+
+/* REGISTRO Y LOGIN */
+
+.login{
+  font-size:1rem;
+}
+.registro2{
+    background: #0064ff30;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1em;
+    border-radius: 3%;
+    padding: 30px;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.registro2 input{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    height: 40px;
+    border-radius: 3%;
+    border: none;
+    padding: 10px;
+  }
+
+.registro2 label{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
+    margin-bottom: 1vh;
+    font-size:1.3rem;
+    width: 100%;
+  }
+.registro{
+    text-align:center;
+  }
+
+.acepta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size:0.8rem;
+
+  }
+.acepta p a{
+  color: #0d47a1;
+}
+.boton div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.recuperoContraseña a{
+  color: blue;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+  margin-top: 0;
+  padding: 0;
+}
+.botones p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+  }
+
+.botones input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:1.3rem;
+  background-color: #0D47A1;
+  border: 2px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius:8px;
+}
+.datosUsuario input[type="email"], input[type="password"], input[type="usuario"]{
+  padding-left: 45px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.datosUsuario {
+  position: relative;
+}
+.datosUsuario i {
+  position: absolute;
+  left: 12%;
+  /*top: 35%;*/
+  top: 13px;
+  color: #aaa;
+
+}
+
+
+
+
+
+/* FOOTER*/
+.footer{
+  background-color:#0d47a1;
+  width:100vw;
+  color:white;
+  text-align:center;
+  padding: 10px;
+  font-size: 1.3rem;
+
+}
+.secciones{
+  display: inline-flex;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.mas-info li{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5%;
+
+}
+.mas-info a{
+  color:white;
+
+}
+.social{
+  text-align:center;
+}
+.social li{
+  display:inline-flex;
+}
+.social i{
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+
+}
+.oficinas{
+  text-align:center;
+}
+.oficinas i{
+  margin-right: 10px;
+}
+.oficinas p{
+  margin-bottom: 10px;
+}
